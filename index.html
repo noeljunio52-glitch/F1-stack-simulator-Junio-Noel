@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Queue Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Queue Simulator</h1>
+
+  <input type="text" id="valueInput" placeholder="Enter a value">
+  <div class="buttons">
+    <button onclick="enqueueValue()">Enqueue</button>
+    <button onclick="dequeueValue()">Dequeue</button>
+    <button onclick="peekValue()">Peek</button>
+    <button onclick="clearQueue()">Clear</button>
+  </div>
+
+  <p id="message"></p>
+
+  <h3>Queue (Front on the left, Rear on the right)</h3>
+  <div id="queue"></div>
+
+  <h3>Deleted Area</h3>
+  <div id="deleted"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

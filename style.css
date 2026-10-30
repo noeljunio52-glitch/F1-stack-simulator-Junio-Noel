@@ -1,32 +1,19 @@
-body{
-    background-color: #495579;
+body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+input { padding: 8px; font-size: 16px; }
+button { padding: 8px 14px; margin: 4px; cursor: pointer; }
+#queue, #deleted {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  min-height: 70px;
+  margin-bottom: 20px;
 }
-#stack{
-    align-items: center;
+.block {
+  background: #4a90e2;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 6px;
+  min-width: 50px;
 }
-.push, .pop{
-   width: 50px;
-   height: 50px;
-   border-radius: 5px;
-   margin:  5px auto;
-   align-content: center;
-   justify-content: center;
-}
-.pop{
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-   
-   
-}
- .popped{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
- }
-.bg-7B8FA1{
-    background-color: #7B8FA1;
-}   
-.bg-9C254D{
-    background-color: #9C254D;
-}
+.block small { display: block; font-size: 10px; margin-top: 4px; }
+.highlight { background: gold; color: black; }
